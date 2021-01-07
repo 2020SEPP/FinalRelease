@@ -1,0 +1,146 @@
+PASS	Executing test case uniT
+	Qt version: 5.14.1
+	Qt build: Qt 5.14.1 (x86_64-little_endian-lp64 shared (dynamic) release build; by Clang 10.0.0 (clang-1000.11.45.5) (Apple))
+	QTest version: 5.14.1
+PASS	Executing test function initTestCase
+PASS	uniT::initTestCase
+	Execution took 1.21752 ms.
+PASS	Executing test function _mainWindow
+WARN	qt.qpa.fonts: Populating font family aliases took 615 ms. Replace uses of missing font family "SimSun" with one that exists to avoid this cost.
+PASS	uniT::_mainWindow
+	Execution took 1450.08 ms.
+PASS	Executing test function _User
+PASS	uniT::_User
+	Execution took 0.040004 ms.
+PASS	Executing test function _signinwidget_basic
+PASS	Data tag: short name  (15) abcdefghijklmno
+PASS	uniT::_signinwidget_basic (short name  (15) abcdefghijklmno)
+PASS	Data tag: exact name  (16) abcdefghijklmnop
+PASS	uniT::_signinwidget_basic (exact name  (16) abcdefghijklmnop)
+PASS	Data tag: long name   (17) abcdefghijklmnopq
+PASS	uniT::_signinwidget_basic (long name   (17) abcdefghijklmnopq)
+PASS	Data tag: short password  (15) abcdefghijklmno
+PASS	uniT::_signinwidget_basic (short password  (15) abcdefghijklmno)
+PASS	Data tag: exact password  (16) abcdefghijklmnop
+PASS	uniT::_signinwidget_basic (exact password  (16) abcdefghijklmnop)
+PASS	Data tag: long password   (17) abcdefghijklmnopq
+PASS	uniT::_signinwidget_basic (long password   (17) abcdefghijklmnopq)
+PASS	Data tag: short phone  (10) 1234567890
+PASS	uniT::_signinwidget_basic (short phone  (10) 1234567890)
+PASS	Data tag: exact phone  (11) 18796700152
+PASS	uniT::_signinwidget_basic (exact phone  (11) 18796700152)
+PASS	Data tag: long phone   (12) 187967001523
+PASS	uniT::_signinwidget_basic (long phone   (12) 187967001523)
+PASS	Data tag: error phone 28796700152
+PASS	uniT::_signinwidget_basic (error phone 28796700152)
+PASS	Data tag: error phone 28796700252
+PASS	uniT::_signinwidget_basic (error phone 28796700252)
+	Execution took 58.731 ms.
+PASS	Executing test function _signinwidget_ui
+PASS	Data tag: clickSignupButton
+PASS	uniT::_signinwidget_ui (clickSignupButton)
+PASS	Data tag: return to login page
+PASS	uniT::_signinwidget_ui (return to login page)
+PASS	Data tag: edit name
+PASS	uniT::_signinwidget_ui (edit name)
+PASS	Data tag: edit pwd
+PASS	uniT::_signinwidget_ui (edit pwd)
+PASS	Data tag: edit pho
+PASS	uniT::_signinwidget_ui (edit pho)
+	Execution took 9.35539 ms.
+PASS	Executing test function _signinwidget_advance
+PASS	Data tag: login without username ( has no password )
+PASS	uniT::_signinwidget_advance (login without username ( has no password ))
+PASS	Data tag: login without username ( has password )
+PASS	uniT::_signinwidget_advance (login without username ( has password ))
+PASS	Data tag: login without password
+PASS	uniT::_signinwidget_advance (login without password)
+PASS	Data tag: register without username ( has password or phone )
+PASS	uniT::_signinwidget_advance (register without username ( has password or phone ))
+PASS	Data tag: register without username ( has no password or phone )
+PASS	uniT::_signinwidget_advance (register without username ( has no password or phone ))
+PASS	Data tag: register with error name ( exist name )
+PASS	uniT::_signinwidget_advance (register with error name ( exist name ))
+PASS	Data tag: register without password ( has phone )
+PASS	uniT::_signinwidget_advance (register without password ( has phone ))
+PASS	Data tag: register without password ( has no phone )
+PASS	uniT::_signinwidget_advance (register without password ( has no phone ))
+PASS	Data tag: register with no phone
+PASS	uniT::_signinwidget_advance (register with no phone)
+PASS	Data tag: register with error phone ( error length )
+PASS	uniT::_signinwidget_advance (register with error phone ( error length ))
+PASS	Data tag: register with error phone ( exist phone )
+PASS	uniT::_signinwidget_advance (register with error phone ( exist phone ))
+	Execution took 67.8339 ms.
+PASS	Executing test function _homepage
+PASS	uniT::_homepage
+	Execution took 874.323 ms.
+PASS	Executing test function _usrinfo
+PASS	uniT::_usrinfo
+	Execution took 281.962 ms.
+PASS	Executing test function _friendlist
+WARN	QPixmap::scaled: Pixmap is a null pixmap
+WARN	QPixmap::scaled: Pixmap is a null pixmap
+WARN	QPixmap::scaled: Pixmap is a null pixmap
+PASS	uniT::_friendlist
+	Execution took 124.221 ms.
+PASS	Executing test function _singleWidget
+WARN	QPixmap::scaled: Pixmap is a null pixmap
+WARN	QPixmap::scaled: Pixmap is a null pixmap
+PASS	uniT::_singleWidget
+	Execution took 418.879 ms.
+PASS	Executing test function _console_basic
+PASS	Data tag: pure num
+PASS	uniT::_console_basic (pure num)
+PASS	Data tag: pure num with dot
+PASS	uniT::_console_basic (pure num with dot)
+PASS	Data tag: pure num with dots
+PASS	uniT::_console_basic (pure num with dots)
+PASS	Data tag: pure num with space
+PASS	uniT::_console_basic (pure num with space)
+PASS	Data tag: pure num with spaces
+PASS	uniT::_console_basic (pure num with spaces)
+PASS	Data tag: pure num with ]
+PASS	uniT::_console_basic (pure num with ])
+PASS	Data tag: pure num with ]s
+PASS	uniT::_console_basic (pure num with ]s)
+PASS	Data tag: pure num with odd
+PASS	uniT::_console_basic (pure num with odd)
+PASS	Data tag: pure num with odds
+PASS	uniT::_console_basic (pure num with odds)
+PASS	Data tag: complex1
+PASS	uniT::_console_basic (complex1)
+PASS	Data tag: complex2
+PASS	uniT::_console_basic (complex2)
+PASS	Data tag: complex3
+PASS	uniT::_console_basic (complex3)
+	Execution took 7.76899 ms.
+PASS	Executing test function _console_complex
+PASS	uniT::_console_complex
+	Execution took 0.85424 ms.
+PASS	Executing test function _canvas
+PASS	uniT::_canvas
+	Execution took 0.436328 ms.
+PASS	Executing test function _singleWidget_complex
+PASS	Data tag: no line
+PASS	uniT::_singleWidget_complex (no line)
+PASS	Data tag: RT
+PASS	uniT::_singleWidget_complex (RT)
+PASS	Data tag: LT
+PASS	uniT::_singleWidget_complex (LT)
+PASS	Data tag: FD
+PASS	uniT::_singleWidget_complex (FD)
+PASS	Data tag: setxy
+PASS	uniT::_singleWidget_complex (setxy)
+PASS	Data tag: UP
+PASS	uniT::_singleWidget_complex (UP)
+PASS	Data tag: BK
+PASS	uniT::_singleWidget_complex (BK)
+	Execution took 8.55696 ms.
+PASS	Executing test function _matchWidget
+PASS	uniT::_matchWidget
+	Execution took 33.4316 ms.
+PASS	Executing test function cleanupTestCase
+PASS	uniT::cleanupTestCase
+	Execution took 0.004245 ms.
+	Test execution took 3338.3 ms.
